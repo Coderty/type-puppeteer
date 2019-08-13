@@ -10,9 +10,9 @@
 
 /// <reference types="node" />
 
-interface Element { };
-interface Node { };
-interface NodeListOf<TNode = Node> { };
+interface Element { }
+interface Node { }
+interface NodeListOf<TNode = Node> { }
 
 import { EventEmitter } from "events";
 import { ChildProcess } from "child_process";
