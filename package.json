@@ -1,36 +1,84 @@
 {
-    "private": true,
-    "name": "type-puppeteer",
-    "version": "0.0.1",
-    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Coderty/type-puppeteer/type-puppeteer.git"
+  "_from": "@types/puppeteer@2.0.0",
+  "_id": "@types/puppeteer@2.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-QPHXIcaPcijMbvizoM7PRL97Rm+aM8J2DmgTz2tt79b15PqbyeaCppYonvPLHQ/Q5ea92BUHDpv4bsqtiTy8kQ==",
+  "_location": "/@types/puppeteer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@types/puppeteer@2.0.0",
+    "name": "@types/puppeteer",
+    "escapedName": "@types%2fpuppeteer",
+    "scope": "@types",
+    "rawSpec": "2.0.0",
+    "saveSpec": null,
+    "fetchSpec": "2.0.0"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/@types/puppeteer/-/puppeteer-2.0.0.tgz",
+  "_shasum": "82c04f93367e2d3396e371a71be1167332148838",
+  "_spec": "@types/puppeteer@2.0.0",
+  "_where": "/Users/carlos/workspace/coderty-core-migracion",
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Marvin Hagemeister",
+      "url": "https://github.com/marvinhagemeister"
     },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/Coderty/type-puppeteer/type-puppeteer.git"
+    {
+      "name": "Christopher Deutsch",
+      "url": "https://github.com/cdeutsch"
     },
-    "engines": {
-        "node": ">=7.8.0"
+    {
+      "name": "Konstantin Simon Maria Möllers",
+      "url": "https://github.com/ksm2"
     },
-    "scripts": {
-        "compile-scripts": "tsc -p scripts",
-        "not-needed": "node scripts/not-needed.js",
-        "update-codeowners": "node scripts/update-codeowners.js",
-        "test": "node node_modules/types-publisher/bin/tester/test.js --run-from-definitely-typed",
-        "lint": "dtslint types"
+    {
+      "name": "Simon Schick",
+      "url": "https://github.com/SimonSchick"
     },
-    "devDependencies": {
-        "dtslint": "latest",
-        "husky": ">=1",
-        "precise-commits": "^1.0.2",
-        "prettier": "^1.17.1"
+    {
+      "name": "Serban Ghita",
+      "url": "https://github.com/SerbanGhita"
     },
-    "dependencies": {},
-    "husky": {
-        "hooks": {
-            "pre-commit": "precise-commits"
-        }
+    {
+      "name": "Jason Kaczmarsky",
+      "url": "https://github.com/JasonKaz"
+    },
+    {
+      "name": "Dave Cardwell",
+      "url": "https://github.com/davecardwell"
+    },
+    {
+      "name": "Andrés Ortiz",
+      "url": "https://github.com/angrykoala"
     }
+  ],
+  "dependencies": {
+    "@types/node": "*"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for puppeteer",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/puppeteer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/puppeteer"
+  },
+  "scripts": {},
+  "typeScriptVersion": "3.0",
+  "types": "index.d.ts",
+  "typesPublisherContentHash": "d7b08fe7623231c548ecfe6da93a199bdfc53cb1fb60f16e07e646346d7e2dc3",
+  "version": "2.0.0"
 }
